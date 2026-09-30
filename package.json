@@ -25,15 +25,15 @@
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.7",
     "terser": "^5.39.2",
-    "vite": "^6.3.5",
-    "wrangler": "^4.16.1"
+    "vite": "^6.4.3",
+    "wrangler": "^4.59.1"
   },
   "dependencies": {
     "@dicebear/core": "^9.2.2",
     "@dicebear/micah": "^9.2.2",
     "aes-js": "^3.1.2",
     "buffer": "^6.0.3",
-    "dompurify": "^3.2.6",
+    "dompurify": "^3.4.13",
     "elliptic": "^6.6.1",
     "emoji-picker-element": "^1.26.3",
     "fflate": "^0.8.2",
