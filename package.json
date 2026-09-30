@@ -26,17 +26,17 @@
     "cssnano": "^7.0.7",
     "terser": "^5.39.2",
     "vite": "^6.4.3",
-    "wrangler": "^4.59.1"
+    "wrangler": "^4.145.0"
   },
   "dependencies": {
-    "@dicebear/core": "^9.2.2",
+    "@dicebear/core": "^9.4.3",
     "@dicebear/micah": "^9.2.2",
     "aes-js": "^3.1.2",
     "buffer": "^6.0.3",
     "dompurify": "^3.4.13",
     "elliptic": "^6.6.1",
     "emoji-picker-element": "^1.26.3",
-    "fflate": "^0.8.2",
+    "fflate": "^0.8.3",
     "js-chacha20": "^1.1.0",
     "js-sha256": "^0.11.0"
   }
