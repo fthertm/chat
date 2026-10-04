@@ -10,12 +10,12 @@ const LANGUAGES = {
 		flag: '🇺🇸',
 		translations: {
 			// Meta tags for SEO
-			'meta.description': 'NodeCrypt - True end-to-end encrypted chat system, no database, all messages encrypted locally, server only relays encrypted data, supports Cloudflare Workers, Docker, self-hosting and local development.',
+			'meta.description': 'Chat - True end-to-end encrypted chat system, no database, all messages encrypted locally, server only relays encrypted data, supports Cloudflare Workers, Docker, self-hosting and local development.',
 			'meta.keywords': 'end-to-end encryption, security, chat, WebSocket, Cloudflare Workers, JavaScript, E2EE, anonymous communication, AES, ECDH, RSA, ChaCha20, security, open source, NodeCrypt, shuaiplus',
-			'meta.og_title': 'NodeCrypt - End-to-End Encrypted Chat System',
-			'meta.og_description': 'NodeCrypt is a zero-knowledge, end-to-end encrypted open source chat system where all encryption and decryption is done locally on the client side, and servers cannot access plaintext. Supports multi-platform deployment, secure, anonymous, no message history.',
-			'meta.twitter_title': 'NodeCrypt - End-to-End Encrypted Chat System',
-			'meta.twitter_description': 'NodeCrypt is a zero-knowledge, end-to-end encrypted open source chat system where all encryption and decryption is done locally on the client side, and servers cannot access plaintext.',
+			'meta.og_title': 'Chat - End-to-End Encrypted Chat System',
+			'meta.og_description': 'Chat is a zero-knowledge, end-to-end encrypted open source chat system where all encryption and decryption is done locally on the client side, and servers cannot access plaintext. Supports multi-platform deployment, secure, anonymous, no message history.',
+			'meta.twitter_title': 'Chat - End-to-End Encrypted Chat System',
+			'meta.twitter_description': 'Chat is a zero-knowledge, end-to-end encrypted open source chat system where all encryption and decryption is done locally on the client side, and servers cannot access plaintext.',
 			
 			// Login and main UI
 			'ui.enter_node': 'Enter a Room',
@@ -97,7 +97,7 @@ const LANGUAGES = {
 			'help.back_to_login': 'Back to Login',
 			'help.usage_guide': 'User Guide',
 			'help.what_is_nodecrypt': '🔐 What is NodeCrypt?',			'help.what_is_nodecrypt_desc': 'NodeCrypt is a true zero-knowledge end-to-end encrypted chat system. With a database-free architecture, all messages are encrypted locally on your device, and the server serves only as an encrypted data relay station, unable to access any of your plaintext content.',
-			'help.how_to_start': '🚀 Quick Start',
+			'help.how_to_start': 'How To Use',
 			'help.step_username': 'Enter Username',
 			'help.step_username_desc': 'Choose a display name for the room, can be any name you like',
 			'help.step_node_name': 'Set Room Name',
@@ -106,6 +106,8 @@ const LANGUAGES = {
 			'help.step_password_desc': 'Used to distinguish different rooms while participating in encryption process to enhance security',
 			'help.step_join': 'Click "Join Room"',
 			'help.step_join_desc': 'System will automatically generate encryption keys and start secure chatting',
+			'help.disclaimer': '⚠️ Disclaimer',
+			'help.disclaimer_desc': 'Kittens will die if you abuse this service or use it for any illegal/improper purpose',
 			'help.security_features': '🔑 Security Features',			'help.e2e_encryption': '🛡️ End-to-End Encryption',
 			'help.e2e_encryption_desc': 'Uses AES-256 + ECDH encryption algorithm, messages can only be decrypted by you and the recipient',
 			'help.password_enhanced_encryption': '🔐 Password Enhanced Encryption',
